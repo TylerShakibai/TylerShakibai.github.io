@@ -1,3 +1,3 @@
-# Getting Started with Create React App
+# My Website
 
 Personal website created using React

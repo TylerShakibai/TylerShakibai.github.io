@@ -2,9 +2,9 @@ import React from 'react';
 
 const Home = () => {
     return (
-        <>
-            This is the home page.
-        </>
+        <div>
+            <img src='waimea-pic.png' alt='Waimea' className='Picture'/>
+        </div>
     );
   };
 

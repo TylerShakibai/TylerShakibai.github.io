@@ -9,7 +9,7 @@ body {
 
 nav {
   display: flex;
-  padding: 0px min(400px, 25%) 100px min(400px, 25%);
+  padding: 0px 25% 100px 25%;
 }
 
 .Name {
@@ -24,4 +24,9 @@ nav {
   text-decoration: none;
   font-size: 20px;
   font-weight: 600;
+}
+
+.Picture {
+  border-radius: 50%;
+  width: 400px;
 }
