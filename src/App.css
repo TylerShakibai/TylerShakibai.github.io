@@ -3,13 +3,13 @@
 }
 
 body {
-  margin: 50px;
+  margin: 2%;
   font-family: sans-serif;
 }
 
 nav {
   display: flex;
-  padding: 0px 25% 100px 25%;
+  padding: 0px 25% 100px;
 }
 
 .Name {
@@ -26,7 +26,37 @@ nav {
   font-weight: 600;
 }
 
+.Main {
+  margin: 0px 20%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10%;
+}
+
 .Picture {
+  flex: 1;
   border-radius: 50%;
-  width: 400px;
+  width: 200px;
+  max-width: 100%;
+  align-self: center;
+}
+
+.Info {
+  flex: 1;
+}
+
+.Contacts {
+  display: flex;
+  gap: 5%;
+}
+
+.Email, .GitHub, .LinkedIn {
+  flex: 1;
+  width: 25px;
+}
+
+.Description {
+  flex: 1;
+  line-height: 1.5;
+  font-size: 20px;
 }
