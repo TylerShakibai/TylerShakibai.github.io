@@ -9,13 +9,13 @@ body {
 
 nav {
   display: flex;
-  padding: 0px 25% 100px;
+  margin: 0px 25% 5%;
 }
 
 .Name {
   text-align: center;
   color: #415066;
-  padding-bottom: 20px;
+  margin: 0 0 2%;
 }
 
 .Home, .Projects, .CV {
@@ -52,6 +52,13 @@ nav {
 .Info {
   flex: 1;
   align-self: center;
+  margin: 0 0 10%;
+}
+
+@media (max-width: 1200px) {
+  .Info {
+    min-width: 50%;
+  }
 }
 
 .Links {
