@@ -20,7 +20,7 @@ const Home = () => {
                     <a href='https://github.com/TylerShakibai'>
                         <img src='github-icon.png' alt='GitHub' className='GitHub'/>
                     </a>
-                    <a href='https://github.com/TylerShakibai'>
+                    <a href='https://www.linkedin.com/in/tylershakibai/'>
                         <img src='linkedin-icon.png' alt='LinkedIn' className='LinkedIn'/>
                     </a>
                 </div>
