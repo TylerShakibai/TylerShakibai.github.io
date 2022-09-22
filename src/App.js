@@ -8,7 +8,7 @@ function App() {
     <>
       <h1 className='Name'>Tyler Shakibai</h1>
       <Navigation/>
-      <Routes>
+      <Routes basemname={`/${process.env.PUBLIC_URL}`}>
         <Route path='/' element={<Home/>}/>
         <Route path='/projects' element={<Projects/>}/>
       </Routes>

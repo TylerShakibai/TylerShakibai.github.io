@@ -6,7 +6,7 @@ const Navigation = () => {
     <nav>
       <Link to='/' className='Home'>Home</Link>
       <Link to='/projects' className='Projects'>Projects</Link>
-      <a href="/TylerShakibai_CV.pdf" target='_blank' className='CV'>CV</a>
+      <a href='/TylerShakibai_CV.pdf' target='_blank' className='CV'>CV</a>
     </nav>
   );
 };
