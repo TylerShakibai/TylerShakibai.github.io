@@ -2,9 +2,10 @@
   box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 body {
   margin: 2%;
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 nav {
@@ -81,4 +82,22 @@ nav {
   flex: 1;
   line-height: 1.5;
   font-size: 20px;
+}
+
+.Project-List{
+  margin: 0% 20%;
+  display: flex;
+  flex-direction: column;
+}
+
+.Project{
+  display: flex;
+  justify-content: space-between;
+  color: #415066;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.Project-Icon{
+  max-width: 20%;
 }
